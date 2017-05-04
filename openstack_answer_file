@@ -13,7 +13,7 @@ CONFIG_DEFAULT_PASSWORD=maqueta17
 # The amount of service workers/threads to use for each service.
 # Useful to tweak when you have memory constraints. Defaults to the
 # amount of cores on the system.
-CONFIG_SERVICE_WORKERS=%{::processorcount}
+CONFIG_SERVICE_WORKERS= 4
 
 # Specify 'y' to install MariaDB. ['y', 'n']
 CONFIG_MARIADB_INSTALL=y
